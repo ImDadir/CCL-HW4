@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weclome to my Contact Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js"></script>
 </head>
 
 <body>
@@ -14,6 +15,11 @@
         <p>Contact Page</p>
     </header>
 
+    <h2> My To-Do List</h2>
+    <input type="text" id="todo-input" placeholder="Add a new task">
+    <button id="add-button">Add</button>
+    <ul id="todo-list"></ul>
+
     <section id="about">
         <h2> About Me </h2>
         <p> Welcome I'm Abdul. I currently go to CCL to learn fullstack.</p>
@@ -21,11 +27,11 @@
 
     <section id="portfolio">
         <h2> portfolio</h2>
-        <diV class="portfolio-items">
+        <div class="portfolio-items">
             <div class="item">
                 <h3></h3>
             </div>
-        </diV>
+        </div>
     </section>
     <section id="contact">
         <h2>Contact me</h2>
@@ -35,12 +41,10 @@
             <label for="email">email:</label>
             <input type="email" id="email" name="email" placeholder="Your email" required>
             <label for="message">message:</label>
-            <input type="message" id="message" name="message" placeholder="Your message" required>
-
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
             <button type="submit">Send</button>
         </form>
     </section>
-</body>
 </body>
 
 </html>
